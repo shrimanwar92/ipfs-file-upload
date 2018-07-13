@@ -2,10 +2,10 @@
 
 1) Install IPFS on your platform https://dist.ipfs.io/#go-ipfs
 
-2) If on local set CORS
- a) ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"http://example.com\"]"
- b) ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"
- c) ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "[\"PUT\", \"POST\", \"GET\"]"
+2) If on local set CORS  
+ a) ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"http://example.com\"]"  
+ b) ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"  
+ c) ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "[\"PUT\", \"POST\", \"GET\"]"  
 
 3) ipfs init
 
